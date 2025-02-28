@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+.btn {
+    background-color: #4CAF50;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 25%;
+    margin: 2.5rem;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.red {
+    background-color: #d95980;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e2d69ee0-f28a-45fd-82b8-1440d325724f/dg69vom-4bcb653c-6eea-4403-871c-328eb16e83ba.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UyZDY5ZWUwLWYyOGEtNDVmZC04MmI4LTE0NDBkMzI1NzI0ZlwvZGc2OXZvbS00YmNiNjUzYy02ZWVhLTQ0MDMtODcxYy0zMjhlYjE2ZTgzYmEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bf3eeT8O4hIyy0VN_Aitg6O8ZnkxSjS_sdvwmRF3yNI);
+    background-size: cover;
+}
+
+
+.yellow {
+    background-color: #f99b45;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e2d69ee0-f28a-45fd-82b8-1440d325724f/dg6eox8-98dff220-c68f-4b2f-94c8-cbc4ffbf84ae.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UyZDY5ZWUwLWYyOGEtNDVmZC04MmI4LTE0NDBkMzI1NzI0ZlwvZGc2ZW94OC05OGRmZjIyMC1jNjhmLTRiMmYtOTRjOC1jYmM0ZmZiZjg0YWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1HFuZn9uSYO1nWAzNGzCN3bWJGSUBoYcjjWBacJ6M4w);
+    background-size: cover;
+
+}
+
+.green {
+    background-color: #63aac0;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e2d69ee0-f28a-45fd-82b8-1440d325724f/dg6ep2j-e0f04cce-53d5-4d2b-b651-bd916fa1dbeb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UyZDY5ZWUwLWYyOGEtNDVmZC04MmI4LTE0NDBkMzI1NzI0ZlwvZGc2ZXAyai1lMGYwNGNjZS01M2Q1LTRkMmItYjY1MS1iZDkxNmZhMWRiZWIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.utfkRVznUOQRPSy4JArl0rOYEiFfgYqzPp8i8U42scw);
+    background-size: cover;
+}
+
+.purple {
+    background-color: #819ff9;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e2d69ee0-f28a-45fd-82b8-1440d325724f/dhuy8gx-48b869de-4c4f-4e26-b5dc-8741402a34c5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UyZDY5ZWUwLWYyOGEtNDVmZC04MmI4LTE0NDBkMzI1NzI0ZlwvZGh1eThneC00OGI4NjlkZS00YzRmLTRlMjYtYjVkYy04NzQxNDAyYTM0YzUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.dkkCE_mISU8QVGQJ1mINWDOj7b6h3kLGRwzOMYjzbIY);
+    background-size: cover;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: black;
+}
